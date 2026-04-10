@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/51.1">
+	<id>com.airpdf.PdfTwoPageTest</id>
+	<versionNumber>0.1.0</versionNumber>
+	<filename>PdfTwoPageTest</filename>
+	<name>PdfTwoPageTest</name>
+	<supportedProfiles>extendedDesktop</supportedProfiles>
+	<extensions>
+		<extensionID>com.airpdf.PdfAne</extensionID>
+	</extensions>
+	<initialWindow>
+		<content>PdfTwoPageTest.swf</content>
+		<title>PDF two-page view (PdfAne)</title>
+		<visible>true</visible>
+		<width>980</width>
+		<height>720</height>
+		<minSize>800 600</minSize>
+		<autoOrients>false</autoOrients>
+		<renderMode>auto</renderMode>
+	</initialWindow>
+</application>

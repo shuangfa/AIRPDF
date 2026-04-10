@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/51.1">
+  <id>com.airpdf.PdfAne</id>
+  <name>PdfAne</name>
+  <copyright></copyright>
+  <versionNumber>0.1.0</versionNumber>
+  <platforms>
+    <platform name="Windows-x86">
+      <applicationDeployment>
+        <nativeLibrary>PdfAne.dll</nativeLibrary>
+        <initializer>PdfAneExtensionInitializer</initializer>
+        <finalizer>PdfAneExtensionFinalizer</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
